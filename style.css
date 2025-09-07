@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    line-height: 5rem;
+    background-color: rgb(12, 12, 51);
+    color: white;
+    height: 5rem;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-top: 5rem;
+}
+
+.img{
+    height: 166px;
+    width: 166px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img:hover{
+    background-color: black;
+    border-radius: 50%;
+}
+img{
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+    border-radius:50% ;
+}
+
+
+/* Score */
+
+.score{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    font-size: 3rem;
+    font-weight: 600;
+    gap: 3rem;
+}
+
+
+/* Msg */
+
+.msg{
+    padding: 20px;
+    margin-top: 5rem;
+    background-color: rgb(12, 12, 51);
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    display: inline-block;
+    border-radius: 20px;
+}
